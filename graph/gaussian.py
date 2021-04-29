@@ -16,6 +16,7 @@ y = [p(x_, 0., 1.) for x_ in x]
 plt.plot(x,y)
 plt.xlabel("確率変数の取る値x")
 plt.ylabel("xを取る確率p(x)")
+plt.title("平均0,分散1の正規分布の確率分布")
 imgname = 'picture/gaussian.png'
 plt.savefig(imgname)
 
