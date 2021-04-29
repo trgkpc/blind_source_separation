@@ -14,8 +14,8 @@ x = 5*(ratio-0.5)
 y = [p(x_, 0., 1.) for x_ in x]
 
 plt.plot(x,y)
-plt.xlabel("x")
-plt.ylabel("p(x)")
+plt.xlabel("確率変数の取る値x")
+plt.ylabel("xを取る確率p(x)")
 imgname = 'picture/gaussian.png'
 plt.savefig(imgname)
 
