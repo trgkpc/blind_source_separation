@@ -8,7 +8,7 @@ def plogp(p):
     if p <= 0:
         return 0
     else:
-        return p*math.log(p)
+        return p*math.log(p)/math.log(2)
 
 def H(p):
     return -plogp(p) - plogp(1-p)
